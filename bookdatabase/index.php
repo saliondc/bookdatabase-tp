@@ -83,7 +83,7 @@
 </div>
 
 <div class="features-section">
-    <img src=".png" alt="Checklist" class="checklist-image">
+    <img src="todo.png" alt="Checklist" class="checklist-image">
     <ul class="features-list">
         <li>Registre seus livros já lidos</li>
         <li>Registre em que capítulo está</li>

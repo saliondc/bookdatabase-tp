@@ -1,3 +1,7 @@
+<?php
+    $userID = isset($_GET['userID']) ? $_GET['userID'] : 0;
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -39,7 +43,7 @@
                 O projeto de banco de dados de livros tem como objetivo criar uma solução eficiente para armazenar informações sobre uma coleção de livros.
                 Ele inclui entidades como Livros, Autores, Gêneros, Editoras, entre outras, para garantir uma representação abrangente dos dados.
             </p>
-            <button class="start-button">Começar Agora</button>
+            <button class="start-button"><a href="cadastro.php">Começar Agora</a></button>
         </div>
     </section>
 
@@ -53,23 +57,6 @@
         </ul>
     </section>
 
-    <section id="technologies" class="books-section">
-        <h2>Tecnologias Utilizadas</h2>
-        <div class="books-container">
-            <img src="book1.jpg" alt="Livro 1">
-            <img src="book2.jpg" alt="Livro 2">
-            <img src="book3.jpg" alt="Livro 3">
-        </div>
-    </section>
-
-    <section id="team" class="books-section">
-        <h2>Equipe</h2>
-        <div class="books-container">
-            <img src="team-member1.jpg" alt="Membro da Equipe 1">
-            <img src="team-member2.jpg" alt="Membro da Equipe 2">
-            <img src="team-member3.jpg" alt="Membro da Equipe 3">
-        </div>
-    </section>
 
     <footer class="site-footer">
         <div class="footer-content">
